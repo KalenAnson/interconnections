@@ -6,25 +6,23 @@ This repository contains all the student host setup for the interconnections les
 2. Each host needs to have a physical ethernet port
 3. The hosts need a keyboard, monitor and root access to setup the lab
 ## Installation
-1. Create a new user on the host as follows:
+1. Run the setup script as root:
 
-		useradd ttc -m -s /bin/bash
-		passwd ttc #TicTacCode
+		/scripts/setup.sh
 
 	The new user's home directory will be at `/home/ttc`.
 
-2. Add `ttc` to sudo list:
+	When the user is no longer needed run the user deletion script as root to remove the user and their files:
 
-		visudo
+		/home/ttc/Development/int/scripts/cleanup.sh
 
-3. Make sure the following packages are installed
+2. The setup script installs the following packages. These can be purged later if the are no longer needed.
 
 		apt-get install git vim openssh-server openssh-client apache2 tcpdump nc telnet w3m htop tmux
 
-4. Clone the lesson into the directory `/home/ttc/Development/int`
+3. Verify the installation is complete by logging in as the `ttc` user with the password you created at installation.
 
-		cd /home/ttc
-		mkdir Development
-		cd Development
-		gitclone https://github.com/kalenanson/interconnections int
-		chown -R ttc:ttc int/
+## Clean Up
+To remove the `ttc` user and __all their files__ run the following script as root:
+
+	/scripts/cleanup.sh
