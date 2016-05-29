@@ -1,9 +1,5 @@
+#!/bin/bash
 ################################################################################
-# Lesson One TMUX Session
-# Access with prefix - A
-# ø
+# TCPDUMP for port 9000
 ################################################################################
-neww -n Lesson_1 /bin/bash
-splitw -v -p 50 -t 0 ". ../scripts/lessonOne.sh"
-selectw -t 1
-selectp -t 0
+sudo tcpdump -nn -X -i eth0 port 9000

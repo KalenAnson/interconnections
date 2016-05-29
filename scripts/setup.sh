@@ -21,6 +21,8 @@ then
 	echo -e "\033[1;32m[Installing necessary packages]\033[0m"
 	apt-get install git vim openssh-server openssh-client apache2 tcpdump nc telnet w3m htop tmux
 	sleep 2
+	echo -e "\033[1;32m[Creating dot files]\033[0m"
+	cp /home/ttc/Development/int/env/.tmux.conf /home/ttc/.tmux.conf
 	echo -e "\033[1;32m[User creation successful]\033[0m"
 	echo -e "\033[1;32m[Login with the `ttc` username and the password you created]\033[0m"
 else
