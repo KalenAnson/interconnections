@@ -4,9 +4,14 @@
 ################################################################################
 
 # Prompt for confirmation
-read -p "Remove the ttc user and all thier files? " -n 1 -r
+read -p "Remove the ttc user and all thier files? " -n 1 -r REPLY
 echo    # New Line
-if [[ ! $REPLY =~ ^[Yy]$ ]]
+case "$REPLY" in
+  y|Y ) DELETE=1;;
+  n|N ) DELETE=0;;
+  * ) echo "Incalid Option";;
+esac
+if [[ "$DELETE" -eq 1 ]]
 then
 	echo -e "\033[1;32m[Removing the user and their home files]\033[0m"
     userdel ttc -r

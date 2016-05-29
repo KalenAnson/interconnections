@@ -4,9 +4,14 @@
 ################################################################################
 
 # Prompt for confirmation
-read -p "Create the ttc user and install necessary packages? " -n 1 -r
+read -p "Create the ttc user and install necessary packages? " -n 1 -r REPLY
 echo    # New Line
-if [[ ! $REPLY =~ ^[Yy]$ ]]
+case "$REPLY" in
+  y|Y ) CREATE=1;;
+  n|N ) CREATE=0;;
+  * ) echo "Incalid Option";;
+esac
+if [[ "$CREATE" -eq 1 ]]
 then
 	echo -e "\033[1;32m[Adding the new ttc user]\033[0m"
     useradd ttc -m -s /bin/bash
@@ -23,6 +28,7 @@ then
 	sleep 2
 	echo -e "\033[1;32m[Creating dot files]\033[0m"
 	cp /home/ttc/Development/int/env/.tmux.conf /home/ttc/.tmux.conf
+	printf "PATH=\$PATH:/sbin" >> /home/ttc/.bashrc
 	echo -e "\033[1;32m[User creation successful]\033[0m"
 	echo -e "\033[1;32m[Login with the `ttc` username and the password you created]\033[0m"
 else
