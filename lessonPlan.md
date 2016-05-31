@@ -143,8 +143,12 @@ Final exercise HTTP and QOTD.
 
 	Type 'Control - a' then the __upper case__ letter 'B' to begin activity 2.
 
+2. Setup
 
-2. Start your Server
+		Type your password.
+		Type 'Control - a' then the __down arrow key__ to start.
+
+3. Start your Server
 
 	Type:
 
@@ -154,7 +158,7 @@ Final exercise HTTP and QOTD.
 
 	Disconnect by typing 'Control - c'
 
-3. Look for the text in the raw data above
+4. Look for the text in the raw data above
 
 	See if you see the payload that you are sending in the text above your prompt.
 
@@ -162,7 +166,7 @@ Final exercise HTTP and QOTD.
 
 	Try unplugging your network cable from the switch and seeing what happens.
 
-4. Connect to a server
+5. Connect to a server
 
 	Type:
 
@@ -170,7 +174,7 @@ Final exercise HTTP and QOTD.
 
 	The ADDRESS should be the group's address to whom you are trying to connect.
 
-5. Look for the text in the raw data above
+6. Look for the text in the raw data above
 
 	See if you see the payload that you are sending in the text above your prompt.
 
@@ -178,7 +182,7 @@ Final exercise HTTP and QOTD.
 
 	Try unplugging your network cable from the switch and seeing what happens.
 
-6. Done
+7. Done
 
 	Type 'Control - c' to stop netcat.
 	Type 'Control - d' to close the lower window.
