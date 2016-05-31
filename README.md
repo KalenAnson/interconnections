@@ -9,6 +9,7 @@ This repository contains all the student host setup for the interconnections les
 
 ## Prerequisites
 To set this lab up you should have several computers that meet the requirements below:
+
 1. Each host should be running Debian Linux
 2. Each host needs to have a physical ethernet port
 3. The hosts need a keyboard, monitor and root access to setup the lab
@@ -40,12 +41,12 @@ Start the lessons by logging in as the new user and launching a new tmux session
 
 To start lesson one, use the following keyboard shortcut:
 
-	<kbd>Control-a</kbd> A
+	Control-a A
 
 Lesson two:
 
-	<kbd>Control-a</kbd> B
+	Control-a B
 
 Lesson three:
 
-	<kbd>Control-a</kbd> C
+	Control-a C
