@@ -19,8 +19,6 @@ We will then split up into  5 groups of three sitting at several tables around t
 There will be one computer per group that I will provide and several ethernet switches around the room. I will also have a router that will be setup to route traffic across different subnets.
 
 ## Lesson 1 - Network Addresses / Hosts (5 minutes)
-{I will primarily use a blackboard while I teach if that is not a problem - the prezzi can just track with the major headings or can be something that someone else sets up - I will mainly draw the stuff we will talk about.}
-
 I will give a short talk about how computer networks are organized from the Internet Protocol perspective. We primarily focus on IPv4 addressing and I will keep the details pretty simple (perhaps overly simplistic so that students can approach the concept).
 
 We will talk about how to find the IP address of your computer and simple ways to change it.
@@ -43,8 +41,8 @@ We will then have them do a tcp dump of the same thing and see what is actually 
 ## Lesson 3 - Services (7 minutes)
 The students will then learn about how networks take several paradigms. We will discuss both peer to peer networks and client - server networks. We will talk about how most everything that they do on a computer network falls into one of these paradigms. We will touch on the fact that the internet is comprised of these types of interactions between different hosts.
 
-## Activity 3 - HTTP / SSH / QOTD (10 + minutes)
-Each student's PC will be set up as a web server, ssh server and a quote of the day server. They will then get the addresses of all the other computers on the network and check out the other student's services. (We will touch on the concept of security thought each activity so that students will begin to see the ways that each network activity is vulnerable to malicious activity.)
+## Activity 3 - HTTP / QOTD (10 + minutes)
+Each student's PC will be set up as a web server and a quote of the day server. They will then get the addresses of all the other computers on the network and check out the other student's services. (We will touch on the concept of security thought each activity so that students will begin to see the ways that each network activity is vulnerable to malicious activity.)
 
 If we have time the students can also do the activity below:
 

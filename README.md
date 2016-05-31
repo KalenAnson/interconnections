@@ -34,8 +34,9 @@ To remove the `ttc` user and __all their files__ run the following script as roo
 	scripts/cleanup.sh
 
 ## Running a lesson
-Each lesson is a custom tmux session that opens multiple panes and launches processes in the background.
-Start the lessons by logging in as the new user and launching a new tmux session:
+Each lesson is a custom tmux session that opens multiple panes and launches multiple processes depending on the lesson.
+
+Start the lessons by logging in as the new 'ttc' user and launching a new tmux session:
 
 	tmux new
 
