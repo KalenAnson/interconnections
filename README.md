@@ -1,6 +1,6 @@
 # [Tic Tac Code](tictaccode.io)
 ## Lesson 8 Interconnections
-This repository contains all the student host setup for the interconnections lesson and labs. This lab is intended to allow students to learn some of the basics of computer networks including the following main concepts:
+This repository contains all the student host setup for the interconnections lesson and labs. The focus for this lesson it to teach students some of the basics of computer networks including the following main concepts:
 * Network Addresses
 * Network Communication
 * Data Encapsulation
@@ -50,3 +50,6 @@ Lesson two:
 Lesson three:
 
 	Control-a C
+
+## Lesson Outline
+The lesson outline is located in the file `overview.md` and `TTC.pages`.
