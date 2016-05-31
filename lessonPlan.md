@@ -186,7 +186,7 @@ Final exercise HTTP and QOTD.
 
 	Type 'Control - c' to stop netcat.
 	Type 'Control - d' to close the lower window.
-	Type 'Control - c' then 'Control - d' to close the upper window.
+	Type 'Control - c' to close the upper window.
 	Type 'htop'.
 
 ## Activity 3 - Services
@@ -239,5 +239,5 @@ Final exercise HTTP and QOTD.
 
 	Type 'Control - c' to stop netcat.
 	Type 'Control - d' to close the lower window.
-	Type 'Control - c' then 'Control - d' to close the upper window.
+	Type 'Control - c' to close the upper window.
 	Type 'htop'.
