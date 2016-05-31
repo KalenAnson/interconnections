@@ -13,7 +13,7 @@ To set this lab up you should have several computers that meet the requirements 
 1. Each host should be running Debian Linux
 2. Each host needs to have a physical ethernet port
 3. The hosts need a keyboard, monitor and root access to setup the lab
----
+
 
 ## Installation
 1. Run the setup script as root:
